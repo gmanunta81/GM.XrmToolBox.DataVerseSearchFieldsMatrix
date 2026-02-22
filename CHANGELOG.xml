@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<changelog tool="GM.XrmToolBox.DataVerseSearchFieldsMatrix">
+	<release version="1.2.0" date="2026-02-22">
+		<change type="Added">Resizable diagnostics pane via bottom splitter.</change>
+		<change type="Added">Readme button and readme popup dialog with right-side vertical toolbar.</change>
+		<change type="Added">README.md and changelog.xml added to the repository.</change>
+	</release>
+
+	<release version="1.1.0" date="2026-02-21">
+		<change type="Added">PPAC-like counting mode and diagnostics columns.</change>
+		<change type="Fixed">PPAC-like count aligned to PPAC by counting common fields once globally (e.g. ownerid).</change>
+	</release>
+
+	<release version="1.0.0" date="2026-02-20">
+		<change type="Added">Initial matrix view with weighted index calculation and CSV export.</change>
+	</release>
+</changelog>

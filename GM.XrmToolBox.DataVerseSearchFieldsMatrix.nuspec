@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>GM.XrmToolBox.DataVerseSearchFieldsMatrix</id>
+
+    <!-- IMPORTANT:
+         - Keep <version> aligned with your AssemblyVersion/AssemblyFileVersion
+           to avoid XrmToolBox showing incorrect update notifications. -->
+    <version>1.0.0.0</version>
+
+    <title>Dataverse Search Fields Matrix</title>
+    <authors>Giovanni Manunta</authors>
+    <owners>Giovanni Manunta</owners>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+
+    <!-- XrmToolBox Tool Library validation: IconUrl + ProjectUrl are required -->
+    <projectUrl>https://github.com/gmanunta81/GM.XrmToolBox.DataVerseSearchFieldsMatrix</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gmanunta81/GM.XrmToolBox.DataVerseSearchFieldsMatrix/master/assets/icon.png</iconUrl>
+
+    <description>
+Displays a matrix of all fields indexed for Dataverse Search (Relevance Search) based on the DEFAULT Quick Find view for each table that is enabled for Dataverse Search.
+    </description>
+    <summary>Dataverse Search / Relevance Search field index matrix for XrmToolBox.</summary>
+
+    <releaseNotes>See changelog.xml for details.</releaseNotes>
+    <tags>XrmToolBox Dataverse Search RelevanceSearch QuickFind Fields Matrix</tags>
+
+    <dependencies>
+      <group targetFramework="net48">
+        <!-- Tool Library expects dependency id="XrmToolBox" (not XrmToolBoxPackage) -->
+        <dependency id="XrmToolBox" version="1.2025.10.74" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <!-- Tool assembly must be inside a "Plugins" folder for XrmToolBox Tool Library -->
+    <!-- If your build output is bin\Release\net48\, adjust the src accordingly -->
+    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\bin\Release\GM.XrmToolBox.DataVerseSearchFieldsMatrix.dll" target="lib\net48\Plugins\" />
+
+    <!-- Optional (recommended) -->
+    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\bin\Release\GM.XrmToolBox.DataVerseSearchFieldsMatrix.pdb" target="lib\net48\Plugins\" />
+    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\assets\**\*.*" target="lib\net48\Plugins\assets\" />
+
+    
+  </files>
+</package>
