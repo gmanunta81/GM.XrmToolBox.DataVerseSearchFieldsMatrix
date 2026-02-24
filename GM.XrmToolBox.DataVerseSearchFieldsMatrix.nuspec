@@ -13,8 +13,7 @@
     <owners>Giovanni Manunta</owners>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
-
+   
     <!-- XrmToolBox Tool Library validation: IconUrl + ProjectUrl are required -->
     <projectUrl>https://github.com/gmanunta81/GM.XrmToolBox.DataVerseSearchFieldsMatrix</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/gmanunta81/GM.XrmToolBox.DataVerseSearchFieldsMatrix/master/assets/icon.png</iconUrl>
@@ -38,11 +37,11 @@ Displays a matrix of all fields indexed for Dataverse Search (Relevance Search) 
   <files>
     <!-- Tool assembly must be inside a "Plugins" folder for XrmToolBox Tool Library -->
     <!-- If your build output is bin\Release\net48\, adjust the src accordingly -->
-    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\bin\Release\GM.XrmToolBox.DataVerseSearchFieldsMatrix.dll" target="lib\net48\Plugins\" />
+    <file src="bin\Release\GM.XrmToolBox.DataVerseSearchFieldsMatrix.dll" target="lib\net48\Plugins\" />
 
-    <!-- Optional (recommended) -->
+    <!-- Optional (recommended) --><!--
     <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\bin\Release\GM.XrmToolBox.DataVerseSearchFieldsMatrix.pdb" target="lib\net48\Plugins\" />
-    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\assets\**\*.*" target="lib\net48\Plugins\assets\" />
+    <file src="GM.XrmToolBox.DataVerseSearchFieldsMatrix\assets\**\*.*" target="lib\net48\Plugins\assets\" />-->
 
     
   </files>
