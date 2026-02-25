@@ -6,11 +6,11 @@
     <!-- IMPORTANT:
          - Keep <version> aligned with your AssemblyVersion/AssemblyFileVersion
            to avoid XrmToolBox showing incorrect update notifications. -->
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
 
     <title>Dataverse Search Fields Matrix</title>
     <authors>Giovanni Manunta</authors>
-    <owners>Giovanni Manunta</owners>
+    <owners>gmanunta81</owners>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
    
@@ -19,7 +19,9 @@
     <iconUrl>https://raw.githubusercontent.com/gmanunta81/GM.XrmToolBox.DataVerseSearchFieldsMatrix/master/assets/icon.png</iconUrl>
 
     <description>
-Displays a matrix of all fields indexed for Dataverse Search (Relevance Search) based on the DEFAULT Quick Find view for each table that is enabled for Dataverse Search.
+        Displays a matrix of all fields indexed for Dataverse Search (Relevance Search) 
+        based on the DEFAULT Quick Find view for 
+        each table that is enabled for Dataverse Search.
     </description>
     <summary>Dataverse Search / Relevance Search field index matrix for XrmToolBox.</summary>
 

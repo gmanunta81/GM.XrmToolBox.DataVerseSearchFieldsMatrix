@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("GM.XrmToolBox.DataVerseSearchFieldsMatrix")]
 [assembly: AssemblyDescription("XrmToolbos Plugin to check and see the CRM Relevant Search Fields")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Giovann Manunta")]
+[assembly: AssemblyCompany("gmanunta81")]
 [assembly: AssemblyProduct("GM.XrmToolBox.DataVerseSearchFieldsMatrix")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
